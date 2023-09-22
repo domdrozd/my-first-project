@@ -1,27 +1,28 @@
-# my-first-project
-
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Project Title
+# Invoice finder
 
 Final project for the Building AI course
 
+Data and AI techniques: What data sources does your project depend on? Almost all AI solutions depend on some data. The availability and quality of the data are essential. Which AI techniques do you think will be helpful? Depending on whether you've been doing the programming exercises or not, you may choose to include a concrete demo implemented by coding, using some actual data!
+How is it used: What is the context in which your solution is used, and by whom? Who are the people affected by it? It’s important to appreciate the viewpoints of all those affected.
+Challenges: What does your project not solve? It’s important to understand that any technological solution will have its limitations.
+What next: How could your project grow and become something even more?
+Acknowledgments: If you’re using open source code or documents in your project, make sure you give credit to the creators. Mention your sources of inspiration, too.
+
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+On July 1st, 2024 Poland introduces obligatory electronic invoice system called KSeF. Each company will have one account in KSeF. All invoices for company will be on this account. 
+Currently when employee pays with company card (ex. lunch with a customer) he/she gets paper invoice and accounting can match invoice with payment. From July 1st, 2024 employee
+will not receive paper invoice.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+The problem is described in Summary. After introduction of KSeF companies in Poland will have accounts in KSeF, on which will be send all invoices for particular company.
+In most cases it should be ease to match invoice with payment, although in case of company card payments there is no easy way to match them.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+* problem 1 - matching company bank card payments with invoices in KSeF
+* problem 2 - matching cash payments with invoices in KSeF
 
+I assume that it will be very company problem in Poland after July 1st, 2024. Most of small and medium companies will have to go through each invoice and try to match it with bank card billings. As a board member of medium size company I will have to deal with this problem somehow.
 
 ## How is it used?
 
@@ -75,7 +76,3 @@ How could your project grow and become something even more? What kind of skills,
 ## Acknowledgments
 
 * list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
