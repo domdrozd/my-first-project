@@ -4,19 +4,38 @@ Building AI course project
 
 ## Summary
 
-On July 1st, 2024 Poland introduces obligatory electronic invoice system called KSeF. Each company will have one account in KSeF. All invoices for company will be on this account. 
-Currently when employee pays with company card (ex. lunch with a customer) he/she gets paper invoice and accounting can match invoice with payment. From July 1st, 2024 employee
-will not receive paper invoice.
+Poland introduces obligatory the National e-Invoice System (called "KSeF"). 
+KSeF enables the issuance and sharing of structured electonic invoices. 
+In the initial period, structured invoices were function in business transactions as one of the accepted forms of documenting transactions, 
+next to paper invoices. 
+From July 1st, 2024 Poland using KSeF will be obligatory. Each company in Polnad will have one account in KSeF. 
+All cost invoices received by a given company will be in this one KSeF account - which means that on a one account the company will
+have several, several hundred or thousands of invoices per month - depending on the size of the specific company..
+
+The proposed solution will be used to link cost invoices received in KSeF account with statements from company payment cards. 
+The task of the system would be to search for the appropriate invoice in KSeF and assign it to a specific item from the bank statement.
 
 ## Background
 
-The problem is described in Summary. After introduction of KSeF companies in Poland will have accounts in KSeF, on which will be send all invoices for particular company.
-In most cases it should be ease to match invoice with payment, although in case of company card payments there is no easy way to match them.
+The problem is described in Summary. 
+
+After implementing KSeF, an employee making a transaction with a company credit card will not receive a paper invoice. 
+When the transaction is completed, the invoice will be electronically sent to his company's account in KSeF. 
+At the end of the month, this employee will have to settle all expenses made with his company card. 
+So far, this was done by matching expenses on the company card statement with the received paper invoices. 
+After the implementation of KSeF, there will no longer be paper invoices. 
+All invoices received by the company will be on one account in KSeF.
+In order to settle expenses using a business card, it will be necessary to search the KSeF account for the expenses indicated on the 
+card statement of a given employee. A limited number of people will have access to a given company's KSeF account. These people will have 
+to do the tedious work of assigning an appropriate invoice to each item in the bank statement. There is currently no easy way to link 
+these invoices to bank statements. Invoices are sent to KSeF directly by the company where we make the purchase, while the bank statement 
+is prepared by the bank based on data received from various agents settling card payments.
+
+A similar situation will occur in the case of cash payments. In such a case, the employee making the cash payment will have to inform 
+the people handling the KSeF account in the company, who in turn will have to search for the appropriate invoice in the KSeF account.
 
 * problem 1 - matching company bank card payments with invoices in KSeF
 * problem 2 - matching cash payments with invoices in KSeF
-
-I assume that it will be very company problem in Poland after July 1st, 2024. Most of small and medium companies will have to go through each invoice and try to match it with bank card billings. As a board member of medium size company I will have to deal with this problem somehow.
 
 ## How is it used?
 
